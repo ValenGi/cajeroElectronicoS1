@@ -1,0 +1,49 @@
+*{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+    --azulOscuro: rgb(21, 87, 154);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--azulOscuro);
+    color: white;
+    padding: 5px;
+}
+
+.icon{
+    width: 50px;  
+}
+
+
+.login{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--azulOscuro)
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form button{
+    color: white;
+    background-color:var(--azulOscuro);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.userInput{
+    display: flex;
+    align-items: center;
+}
